@@ -1,4 +1,3 @@
-````markdown
 # 🌍 Earthquake Visualizer
 
 A React + Vite application to visualize recent earthquakes on an interactive map using **Leaflet** and **USGS Earthquake API**.  
