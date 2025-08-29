@@ -43,6 +43,11 @@ npm run dev
 * **Leaflet + React-Leaflet**
 * **react-leaflet-cluster**
 * **JavaScript (ES6+)**
+## 📸 Screenshot
+
+Here is the Earthquake Visualizer in action:
+
+![App Screenshot](./assets/screenshot.png)
 
 ## 📦 Deployment
 
