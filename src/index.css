@@ -1,0 +1,330 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ----- Leaflet Overrides ----- */
+.leaflet-container {
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* light gradient background */
+  border-radius: 12px;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+  padding: 12px !important;
+  background: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ----- Earthquake Marker Styling ----- */
+.quake-icon div.quake-marker {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+  color: black;
+}
+
+.quake-icon div.quake-marker:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* ----- Cards (Stats / About / Usage) ----- */
+.rounded-xl.border.bg-white.shadow {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.rounded-xl.border.bg-white.shadow:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* ----- Buttons ----- */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+  scale: 1.05;
+}
+
+/* ----- Legend ----- */
+.absolute.bottom-3.left-3.bg-white\/90 {
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease-in-out;
+}
+
+.absolute.bottom-3.left-3.bg-white\/90:hover {
+  transform: scale(1.05);
+}
+
+/* ----- Responsive tweaks ----- */
+@media (max-width: 768px) {
+  .h-[72vh] {
+    height: 60vh; /* smaller map on mobile */
+  }
+}
+
+/* ----- Scrollbar Styling ----- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #909090;
+}
+
+/* ----- Global fonts & colors ----- */
+body {
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: linear-gradient(to bottom, #fef9ff, #e0f7fa);
+  color: #111827;
+}
+
+/* ----- Simple Blue Button ----- */
+.btn-blue {
+  background-color: #3b82f6; /* blue-500 */
+  color: white;
+  border-radius: 0.5rem; /* rounded-md for a cleaner look */
+  padding: 0.25rem 0.75rem; /* smaller padding */
+  font-weight: 500;
+  font-size: 0.875rem; /* text-sm */
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-blue:hover {
+  background-color: #2563eb; /* darker blue */
+  transform: scale(1.05);
+}
+
+
+/* ----- Header & Title ----- */
+header {
+  font-family: "Inter", sans-serif;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  font-size: 1.25rem; /* md:text-xl */
+  font-weight: 600;
+  color: #111827;
+}
+
+header p {
+  font-size: 0.75rem; /* text-xs */
+  color: #6b7280;
+  margin-top: 2px;
+}
+
+/* ----- Controls: Window, Min Magnitude, Reset Button ----- */
+header .flex.flex-wrap.items-center.gap-4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem; /* spacing between controls */
+  align-items: center;
+}
+
+header select,
+header input[type="range"] {
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem; /* rounded-md */
+  padding: 0.25rem 0.5rem; /* compact padding */
+  font-size: 0.875rem; /* text-sm */
+  color: #111827;
+  outline: none;
+}
+
+header select:focus,
+header input[type="range"]:focus {
+  border-color: #3b82f6; /* blue border on focus */
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* ----- Reset Button ----- */
+.btn-blue {
+  background-color: #3b82f6; /* Tailwind blue-500 */
+  color: #ffffff;
+  border-radius: 0.375rem; /* rounded-md */
+  padding: 0.25rem 0.75rem; /* px-3 py-1 */
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-blue:hover {
+  background-color: #2563eb; /* Tailwind blue-600 */
+  transform: scale(1.05);
+}
+
+/* ----- Updated Time ----- */
+header .text-xs.text-gray-500 {
+  color: #6b7280;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+/* ----- Stats Bar ----- */
+/* ----- Stats Bar ----- */
+.stats-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.stats-bar div {
+  flex: 1 1 120px; /* each stat box has min width */
+  text-align: center;
+  padding: 0.75rem 0.5rem;
+  border-radius: 0.5rem; /* rounded-lg */
+  background: #f9fafb; /* light gray background */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.stats-bar div:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.stats-bar div span {
+  display: block;
+  font-size: 0.75rem; /* label text */
+  color: #6b7280; /* gray-500 */
+  margin-bottom: 0.25rem;
+}
+
+.stats-bar div strong {
+  display: block;
+  font-size: 1.125rem; /* slightly bigger number */
+  color: #111827; /* dark text */
+  font-weight: 600;
+}
+
+/* ----- Legend (Optional if you have it) ----- */
+/* ----- Legend Styling ----- */
+.legend {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border-radius: 1rem; /* more rounded */
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.legend .item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.legend .color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid rgba(0,0,0,0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.legend .item:hover .color-dot {
+  transform: scale(1.3);
+}
+
+
+/* ----- About & Usage Cards ----- */
+section > article {
+  border-radius: 0.75rem; /* rounded-xl */
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 1.25rem; /* p-5 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+section > article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+section > article h2 {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+section > article p,
+section > article ul {
+  font-size: 0.875rem; /* text-sm */
+  color: #4b5563; /* gray-700 */
+  line-height: 1.6; /* better readability */
+}
+
+section > article ul li {
+  margin-bottom: 0.25rem;
+}
+
+.quake-marker {
+  font-size: 12px;
+  font-weight: bold;
+  color: #111827;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid rgba(0,0,0,0.25);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quake-marker:hover {
+  transform: scale(1.3);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+.leaflet-popup-content-wrapper {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.leaflet-popup-content-wrapper:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 640px) {
+  .stats-bar {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+}
+
