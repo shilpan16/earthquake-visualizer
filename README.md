@@ -4,7 +4,6 @@ A React + Vite application to visualize recent earthquakes on an interactive map
 
 Live Demo: [Click Here](https://fjldjv-5173.csb.app/)  
 
----
 
 ## 🚀 Features
 - Fetches **real-time earthquake data** from [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).  
@@ -17,7 +16,6 @@ Live Demo: [Click Here](https://fjldjv-5173.csb.app/)
   - Time  
   - USGS link  
 
----
 
 ## 📂 Project Setup
 
@@ -39,22 +37,18 @@ npm install
 npm run dev
 ```
 
----
-
 ## 🛠️ Tech Stack
 
 * **React + Vite**
 * **Leaflet + React-Leaflet**
 * **react-leaflet-cluster**
 * **JavaScript (ES6+)**
----
 
 ## 📦 Deployment
 
 Deployed free on **CodeSandbox**.
 👉 [Live App](https://fjldjv-5173.csb.app/)
 
----
 
 ## 👩‍💻 Author
 
