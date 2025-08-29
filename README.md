@@ -61,6 +61,6 @@ Deployed free on **CodeSandbox**.
 **Shilpa Neralla**
 
 * GitHub: [@shilpan16](https://github.com/shilpan16)
-* LinkedIn: \[https://www.linkedin.com/in/shilpa-neralla/]
+* LinkedIn: (https://www.linkedin.com/in/shilpa-neralla/)
 
 
