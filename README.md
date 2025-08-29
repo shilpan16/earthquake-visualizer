@@ -89,20 +89,12 @@ earthquake-visualizer/
 
 ---
 
-## 🌐 Deployment
 
-You can deploy this app easily to:
+## 🌐 Live Demo
+You can explore the live version of this app here:
+https://fjldjv-5173.csb.app/
 
-* [Vercel](https://vercel.com/)
-* [Netlify](https://www.netlify.com/)
-* [GitHub Pages](https://pages.github.com/)
-
-For Vercel:
-
-```bash
-npm run build
-vercel --prod
-```
+*(This link updates automatically with changes in CodeSandbox)*
 
 ---
 
