@@ -3,6 +3,12 @@
 A React + Vite application to visualize recent earthquakes on an interactive map using **Leaflet** and **USGS Earthquake API**.  
 
 Live Demo: [Click Here](https://fjldjv-5173.csb.app/)  
+## 🎥 Demo Video
+
+Watch the demo of the Earthquake Visualizer here:
+
+[![Earthquake Visualizer Demo]](https://drive.google.com/file/d/1Hi19wzUWYSpO8hnvexsA9MWEkwmfyhK1/view?usp=sharing)
+
 
 
 ## 🚀 Features
