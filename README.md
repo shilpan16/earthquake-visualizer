@@ -47,9 +47,6 @@ npm run dev
 * **Leaflet + React-Leaflet**
 * **react-leaflet-cluster**
 * **JavaScript (ES6+)**
-
----
-
 ---
 
 ## 📦 Deployment
