@@ -1,12 +1,126 @@
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 README.md
 
-Currently, two official plugins are available:
+````markdown
+# 🌎 Earthquake Visualizer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A React + Vite + Leaflet application that visualizes recent earthquakes worldwide using **USGS real-time feeds**.  
+Built as part of the **Aganitha Web Developer Take-Home Challenge**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🗺️ **Interactive Map** with zoom & pan  
+- 🎯 **Markers** sized and colored by magnitude:
+  - Green: Minor (< 2.5)  
+  - Yellow: Light (2.5 – 4.4)  
+  - Orange: Moderate (4.5 – 5.9)  
+  - Red: Strong (6.0+)  
+- 📊 **Stats bar** showing:
+  - Total events  
+  - Average magnitude  
+  - Strongest quake (with location)  
+- ⏳ **Filters**
+  - Time window: Hour, Day, Week, Month  
+  - Minimum magnitude slider  
+- 🔍 **Marker Clustering** for readability  
+- 📌 **Popups with details**:
+  - Magnitude, location, depth  
+  - Tsunami alert, felt reports  
+  - Link to official **USGS event page**  
+- 🖱️ **Reset View** button to fit results on the map  
+- ⚡ **Loading & error states** with user-friendly messages  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React (Vite)**
+- **Leaflet & react-leaflet**
+- **react-leaflet-markercluster**
+- **Tailwind CSS**
+- **USGS Earthquake GeoJSON API**  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/<your-username>/earthquake-visualizer.git
+cd earthquake-visualizer
+````
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start Development Server
+
+```bash
+npm run dev
+```
+
+Your app will be available at:
+👉 [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 📂 Project Structure
+
+```
+earthquake-visualizer/
+├─ public/                 # Static assets
+├─ src/
+│  ├─ assets/              # Icons, images (if any)
+│  ├─ App.jsx              # Main app with map & logic
+│  ├─ App.css              # Component-specific styling
+│  ├─ index.css            # Tailwind styles
+│  └─ main.jsx             # Entry point
+├─ index.html              # HTML template
+├─ package.json            # Dependencies & scripts
+├─ tailwind.config.js      # Tailwind setup
+├─ vite.config.js          # Vite config
+└─ README.md               # Project documentation
+```
+
+---
+
+## 🌐 Deployment
+
+You can deploy this app easily to:
+
+* [Vercel](https://vercel.com/)
+* [Netlify](https://www.netlify.com/)
+* [GitHub Pages](https://pages.github.com/)
+
+For Vercel:
+
+```bash
+npm run build
+vercel --prod
+```
+
+---
+
+## 📸 Screenshots
+
+*(Add your own screenshots of the running app here for extra clarity in submission)*
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+Data source: [USGS Earthquake GeoJSON Feeds](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
+Map tiles © [OpenStreetMap](https://www.openstreetmap.org/) contributors.
+
+```
+
+---
+
+
