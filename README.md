@@ -7,7 +7,7 @@ Live Demo: [Click Here](https://fjldjv-5173.csb.app/)
 
 Watch the demo of the Earthquake Visualizer here:
 
-[![Earthquake Visualizer Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1Hi19wzUWYSpO8hnvexsA9MWEkwmfyhK1/view?usp=sharing)
+[![Earthquake Visualizer Demo]](https://drive.google.com/file/d/1Hi19wzUWYSpO8hnvexsA9MWEkwmfyhK1/view?usp=sharing)
 
 
 
