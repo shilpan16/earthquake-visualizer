@@ -47,7 +47,7 @@ npm run dev
 
 Here is the Earthquake Visualizer in action:
 
-![App Screenshot](./assets/screenshot.png)
+![App Screenshot](./assets/earthquake_ss.png)
 
 ## 📦 Deployment
 
