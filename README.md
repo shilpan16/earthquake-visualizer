@@ -91,10 +91,10 @@ earthquake-visualizer/
 
 
 ## 🌐 Live Demo
-You can explore the live version of this app here:
-https://fjldjv-5173.csb.app/
 
-*(This link updates automatically with changes in CodeSandbox)*
+- 🚀 Live App: https://fjldjv-5173.csb.app/  
+- 💻 GitHub Repo: https://github.com/shilpan16/earthquake-visualizer  
+- 🛠️ CodeSandbox Editor: https://codesandbox.io/p/github/shilpan16/earthquake-visualizer/main
 
 ---
 
