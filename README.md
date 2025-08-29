@@ -61,11 +61,6 @@ Deployed free on **CodeSandbox**.
 **Shilpa Neralla**
 
 * GitHub: [@shilpan16](https://github.com/shilpan16)
-* LinkedIn: \[Your LinkedIn Profile]
+* LinkedIn: \[Your LinkedIn Profile](https://www.linkedin.com/in/shilpa-neralla/)
 
-```
 
-You can just copy-paste this into your `README.md` file.  
-
-👉 Do you also want me to make a **screenshot.png placeholder** for the README so it looks complete?
-```
