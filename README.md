@@ -50,22 +50,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-### 🌐 Map with Earthquake Data
-
-![Map Screenshot](./screenshot.png)
-
----
-
-## 📹 Demo Video
-
-Explain in your video:
-
-* How the app fetches and displays earthquake data.
-* Features like clustering, popups, filtering.
-* (Optional) How LLMs/AI helped you in building this project.
-
 ---
 
 ## 📦 Deployment
