@@ -1,4 +1,3 @@
----
 
 ## 📄 README.md
 
@@ -119,8 +118,5 @@ This project is licensed under the **MIT License**.
 Data source: [USGS Earthquake GeoJSON Feeds](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
 Map tiles © [OpenStreetMap](https://www.openstreetmap.org/) contributors.
 
-```
-
----
 
 
