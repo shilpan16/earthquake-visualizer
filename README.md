@@ -1,114 +1,93 @@
-
-## 📄 README.md
+Ahh understood — you mean you want a **single README.md file** that you can copy-paste into your GitHub repo (so CodeSandbox shows it properly). Here’s a clean one for your **Earthquake Visualizer** project:
 
 ````markdown
-# 🌎 Earthquake Visualizer
+# 🌍 Earthquake Visualizer
 
-A React + Vite + Leaflet application that visualizes recent earthquakes worldwide using **USGS real-time feeds**.  
-Built as part of the **Aganitha Web Developer Take-Home Challenge**.
+A React + Vite application to visualize recent earthquakes on an interactive map using **Leaflet** and **USGS Earthquake API**.  
 
----
-
-## ✨ Features
-
-- 🗺️ **Interactive Map** with zoom & pan  
-- 🎯 **Markers** sized and colored by magnitude:
-  - Green: Minor (< 2.5)  
-  - Yellow: Light (2.5 – 4.4)  
-  - Orange: Moderate (4.5 – 5.9)  
-  - Red: Strong (6.0+)  
-- 📊 **Stats bar** showing:
-  - Total events  
-  - Average magnitude  
-  - Strongest quake (with location)  
-- ⏳ **Filters**
-  - Time window: Hour, Day, Week, Month  
-  - Minimum magnitude slider  
-- 🔍 **Marker Clustering** for readability  
-- 📌 **Popups with details**:
-  - Magnitude, location, depth  
-  - Tsunami alert, felt reports  
-  - Link to official **USGS event page**  
-- 🖱️ **Reset View** button to fit results on the map  
-- ⚡ **Loading & error states** with user-friendly messages  
+Live Demo: [Click Here](https://fjldjv-5173.csb.app/)  
 
 ---
 
-## 🛠️ Tech Stack
-
-- **React (Vite)**
-- **Leaflet & react-leaflet**
-- **react-leaflet-markercluster**
-- **Tailwind CSS**
-- **USGS Earthquake GeoJSON API**  
+## 🚀 Features
+- Fetches **real-time earthquake data** from [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).  
+- Interactive **Leaflet Map** with zoom and pan.  
+- **Clustered Markers** for dense regions.  
+- Popup showing details:  
+  - Magnitude  
+  - Location  
+  - Depth  
+  - Time  
+  - USGS link  
 
 ---
 
-## 🚀 Getting Started
+## 📂 Project Setup
 
-### 1. Clone Repository
+### 1. Clone the repo
 ```bash
-git clone https://github.com/<your-username>/earthquake-visualizer.git
+git clone https://github.com/shilpan16/earthquake-visualizer.git
 cd earthquake-visualizer
 ````
 
-### 2. Install Dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Start Development Server
+### 3. Run locally
 
 ```bash
 npm run dev
 ```
 
-Your app will be available at:
-👉 [http://localhost:5173](http://localhost:5173)
-
 ---
 
-## 📂 Project Structure
+## 🛠️ Tech Stack
 
-```
-earthquake-visualizer/
-├─ public/                 # Static assets
-├─ src/
-│  ├─ assets/              # Icons, images (if any)
-│  ├─ App.jsx              # Main app with map & logic
-│  ├─ App.css              # Component-specific styling
-│  ├─ index.css            # Tailwind styles
-│  └─ main.jsx             # Entry point
-├─ index.html              # HTML template
-├─ package.json            # Dependencies & scripts
-├─ tailwind.config.js      # Tailwind setup
-├─ vite.config.js          # Vite config
-└─ README.md               # Project documentation
-```
-
----
-
-
-## 🌐 Live Demo
-
-- 🚀 Live App: https://fjldjv-5173.csb.app/  
-- 💻 GitHub Repo: https://github.com/shilpan16/earthquake-visualizer  
-- 🛠️ CodeSandbox Editor: https://codesandbox.io/p/github/shilpan16/earthquake-visualizer/main
+* **React + Vite**
+* **Leaflet + React-Leaflet**
+* **react-leaflet-cluster**
+* **JavaScript (ES6+)**
 
 ---
 
 ## 📸 Screenshots
 
-*(Add your own screenshots of the running app here for extra clarity in submission)*
+### 🌐 Map with Earthquake Data
+
+![Map Screenshot](./screenshot.png)
 
 ---
 
-## 📜 License
+## 📹 Demo Video
 
-This project is licensed under the **MIT License**.
-Data source: [USGS Earthquake GeoJSON Feeds](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
-Map tiles © [OpenStreetMap](https://www.openstreetmap.org/) contributors.
+Explain in your video:
 
+* How the app fetches and displays earthquake data.
+* Features like clustering, popups, filtering.
+* (Optional) How LLMs/AI helped you in building this project.
 
+---
 
+## 📦 Deployment
+
+Deployed free on **CodeSandbox**.
+👉 [Live App](https://fjldjv-5173.csb.app/)
+
+---
+
+## 👩‍💻 Author
+
+**Shilpa Neralla**
+
+* GitHub: [@shilpan16](https://github.com/shilpan16)
+* LinkedIn: \[Your LinkedIn Profile]
+
+```
+
+You can just copy-paste this into your `README.md` file.  
+
+👉 Do you also want me to make a **screenshot.png placeholder** for the README so it looks complete?
+```
