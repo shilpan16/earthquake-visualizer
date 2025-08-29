@@ -1,5 +1,3 @@
-Ahh understood — you mean you want a **single README.md file** that you can copy-paste into your GitHub repo (so CodeSandbox shows it properly). Here’s a clean one for your **Earthquake Visualizer** project:
-
 ````markdown
 # 🌍 Earthquake Visualizer
 
